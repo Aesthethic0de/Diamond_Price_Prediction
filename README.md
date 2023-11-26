@@ -23,7 +23,18 @@ Target variable:
 Dataset Source Link :
 [https://www.kaggle.com/competitions/playground-series-s3e8/data?select=train.csv](https://www.kaggle.com/competitions/playground-series-s3e8/data?select=train.csv)
 
-steps
+Steps
 
+1.Training Pipeline
 
 ![Train Pipeline](pipe1.png)
+
+2. Prediction Pipeline
+
+![Test Pipeline](pipe2.png)
+
+
+Result
+
+
+![Result](result.png)
