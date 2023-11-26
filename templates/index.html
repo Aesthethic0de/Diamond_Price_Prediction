@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Diamond Price Prediction</title>
+  <style>
+    /* Style for the diamond image */
+    #diamond {
+      display: block;
+      width: 200px; /* Adjust the size as needed */
+      margin: 50px auto; /* Center the image */
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Home Page</h1>
+
+  <!-- Random image linked to http://127.0.0.1:8080/predict -->
+  <a href="http://127.0.0.1:8080/predict">
+    <img id="diamond" src="https://noraydesigns.com/cdn/shop/articles/diamond_quality_e937434a-7bdf-41fd-bd81-5935707348e8.jpg?v=1614681170" alt="Random Image">
+  </a>
+
+  <!-- Button to navigate to http://127.0.0.1:8080/predict -->
+  <button onclick="redirectToPredict()">Go to Predict</button>
+
+  <script>
+    // JavaScript function to redirect to http://127.0.0.1:8080/predict
+    function redirectToPredict() {
+      window.location.href = "http://127.0.0.1:8080/predict";
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,4 @@
+[2023-11-26 23:00:03,893] 15 root - INFO - test
+[2023-11-26 23:00:04,535] 96 werkzeug - WARNING -  * Debugger is active!
+[2023-11-26 23:00:04,537] 96 werkzeug - INFO -  * Debugger PIN: 394-141-262
+[2023-11-26 23:00:35,872] 96 werkzeug - INFO -  * Detected change in 'd:\\Study\\github\\Diamond_Price_Prediction\\application.py', reloading
